@@ -1,12 +1,32 @@
-echo "# learning_cmd" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Deepakarya0155/learning_cmd.git
-git push -u origin main
+* Basic initial command
+
+	echo "# learning_cmd" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/Deepakarya0155/learning_cmd.git
+	git push -u origin main
 
 
-git remote add origin https://github.com/Deepakarya0155/learning_cmd.git
-git branch -M main
-git push -u origin main
+	git remote add origin https://github.com/Deepakarya0155/learning_cmd.git
+	git branch -M main
+	git push -u origin main
+	
+	
+* How to make normal folder as repository ( local repository )
+	
+	$:> git init
+	
+* How to add single file to staging area ( Local repository)
+
+	$:> git add fileName
+	
+* How to add all file to staging area (Local repository)
+
+	$:> git add .
+	
+* How to commit canges 
+	
+	$:> git commit -m "commit message"
+	
