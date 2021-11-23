@@ -26,7 +26,65 @@
 
 	$:> git add .
 	
-* How to commit canges 
+* How to commit canges (Local repository)
 	
 	$:> git commit -m "commit message"
+	
+	
+* How to check commit histiory or logs
+	
+	$:> git log
+	
+* Working with branches 
+	*-> How to show all branches
+		$:>  git branch 
+	*-> How to create branch
+		$:> git branch <<branchname>>
+	*-> how to switch between branches
+		$:> git checkout <<branchName>>
+	*-> how to delete branch
+		 git branch -d <<branchName>>
+
+		
+* revert change
+
+	*-> revert change from local respository (local repository)
+		$:> git checkout  <file_name>   
+	
+
+
+** reset
+	
+	** delete commit as head start to point to commit which id you provided 
+	
+		$:>  git reset --hard <<commit id>>
+		$:>  git push -f                     // force push
+	
+** revert
+
+	** revert to commit but did not delete prviout commit 
+	
+	
+	
+
+		
+* merger 
+     *->  supose i m on master branch (local repository & master branch)
+		$:> git merge <<branchname>>
+		
+		Note : if no confilict than it will merge esle you have to manually resove conflicts
+
+* Remote repository
+	
+	* pull request get change from remote to local
+		$:>  git pull
+		
+	* push to    change from local to remote
+		$:> git push -u origin <<branchname>>
+	
+	
+	Note : alwasy pull before push   to avoid confilicts
+	
+
+
 	
