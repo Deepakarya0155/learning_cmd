@@ -16,7 +16,8 @@
 	
 * status 
 	
-	$:> git status -u
+	$:> git status -u  
+	
 	
 * how clone repository
 	$:> git clone url
