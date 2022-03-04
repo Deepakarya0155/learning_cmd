@@ -95,5 +95,6 @@
 	Note : alwasy pull before push   to avoid confilicts
 	
 
-
+update git message:
 	
+	git commit --amend -m "New commit message."
